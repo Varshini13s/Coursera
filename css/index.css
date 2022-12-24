@@ -1,0 +1,78 @@
+body{
+   font-size: 100%;
+}
+h1{
+   text-align: center;
+   margin-top: 5%;
+   font-weight: bold;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 3em;
+}
+.one,.two,.three{
+    /* width:30%; */
+    height:175px;
+    background-color: gray;
+    border:1px solid black;
+    margin:1.5%;
+    margin-top: 5%;
+    /* float:left; */
+}
+.one,.two,.three{
+    position: relative;
+}
+.one p,.two p,.three p{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.one h3{
+    margin:0px;
+    padding: 0px;
+    width:20%;
+    height:27px;
+    background-color: aqua;
+    border:1px solid black;
+    text-align: center;
+    padding: 1%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+   
+.two h3{
+    margin:0px;
+    padding: 0px;
+    width:20%;
+    height:27px;
+    background-color:aquamarine;
+    border:1px solid black;
+    text-align: center;
+    padding: 1%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.three h3{
+    margin:0px;
+    padding: 0px;
+    width:20%;
+    height:27px;
+    background-color:cadetblue;
+    border:1px solid black;
+    text-align: center;
+    padding: 1%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+@media(min-width:992px){
+    .one,.two,.three{
+        width:30%;
+        float:left;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .one,.two,.three{
+        width:46%;
+        float:left;
+    }
+}
